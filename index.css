@@ -1,0 +1,46 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.btn-editar {
+    background-image: url("imagenes/edit.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .table-rounded {
+    border-radius: 0.25rem;
+    overflow: hidden;
+  }
+
+  #editarPerros {
+    cursor: pointer;
+}
+
+#editarPerros.clicked {
+    cursor: auto;
+}
+
+#editarGatos {
+    cursor: pointer;
+}
+
+#editarGatos.clicked {
+    cursor: auto;
+}
+
+.resaltar-input {
+    border-color: blue;
+}
